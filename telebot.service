@@ -2,8 +2,8 @@
 Description=Telegram Bot 
 After=network.target
 
-[Service] User=(bifrog) 
-Group=(bifrog)
+[Service] User=bifrog 
+Group=bifrog
 
 WorkingDirectory=/home/bifrog/bifrog/
  Environment="PYTHONPATH=/home/bifrog/bifrog/"
